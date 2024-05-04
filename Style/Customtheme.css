@@ -1,0 +1,11 @@
+:root {
+    --cor-fundo-navbar: #141414;
+    --cor-texto-navbar: #c28a3d;
+    --cor-links-navbar: #c28a3d;
+  }
+  
+  [data-bs-theme="custom-theme"] {
+    --bs-bg: var(--cor-fundo-navbar) !important;
+    --bs-text: var(--cor-texto-navbar) !important;
+    --bs-primary: var(--cor-links-navbar) !important;
+  }

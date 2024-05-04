@@ -1,0 +1,98 @@
+/* Adicione suas personalizações aqui */
+.navbar, .offcanvas, .offcanvas-end .show, .nav-link, .dropdown-item, .navbar, .bg-body-tertiary, .fixed-top, .container-fluid, .navbar-brand {
+    background-color: #262626 !important;
+}
+.dropdown-menu {
+    font-size: 17px;
+    border-color: #BF863F;
+    text-align: center !important;
+}
+
+.dropdown-item{
+    text-align: center !important;
+}
+
+.dropdown-item:hover {
+    color: #BF863F; /* Nova cor do texto quando hoverizado */
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.navbar .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.navbar .social-icons a {
+    color: #BF863F;
+    font-size: 32px;
+}
+.navbar-links {
+    color: #f5f3f0;
+    font-size: 20px;
+}
+
+.navbar .nav-link.home {
+    color: #BF863F;
+}
+
+body {
+    font-family: 'Raleway', cursive, sans-serif;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+
+    /* Mantém a imagem de fundo fixa enquanto a página é rolada */
+    background-attachment: fixed;
+
+    /* Define o posicionamento da imagem de fundo no centro */
+    background-position: center;
+}
+
+.carousel-inner, .carouselSlides, .carousel-item img{
+    max-height: 100vh !important;
+}
+
+@media (max-width: 900.98px) {
+    .carousel-item img {
+       max-width: 100vh; /* Define a altura da imagem para 100% da altura da tela em dispositivos móveis */}
+    .navbar-toggler {
+        display: flex;
+        margin-right: 2.5%;
+    }
+    .offcanvas-header .btn-close{
+        margin-right: 2.5%;
+    }
+    .navbar-links {
+        font-size: 0px;
+        display: none;
+        visibility: hidden;
+    }
+
+    
+ }
+
+ .btn-primary {
+    margin-bottom: 5px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #BF863F;
+    --bs-btn-border-color: #BF863F;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #262626;
+    --bs-btn-hover-border-color: #BF863F;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #10e67b;
+    --bs-btn-active-bg: #010c06;
+    --bs-btn-active-border-color: #000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #10e67b;
+    --bs-btn-disabled-bg: #BF863F;
+    --bs-btn-disabled-border-color: #BF863F;
+}
+
+.row {
+    margin-top: 20px;
+}
