@@ -50,6 +50,7 @@ body {
 
     /* Define o posicionamento da imagem de fundo no centro */
     background-position: center;
+    object-fit: cover; 
 }
 
 .carousel-inner, .carouselSlides, .carousel-item img{
@@ -58,7 +59,9 @@ body {
 
 @media (max-width: 900.98px) {
     .carousel-item img {
-       max-width: 100vh; /* Define a altura da imagem para 100% da altura da tela em dispositivos móveis */}
+       max-height: 100vh; /* Define a altura da imagem para 100% da altura da tela em dispositivos móveis */
+       object-fit: cover; }
+       
     .navbar-toggler {
         display: flex;
         margin-right: 2.5%;
@@ -71,10 +74,34 @@ body {
         display: none;
         visibility: hidden;
     }
-
-    
+    .INSTA1 {
+        height: 620px;
+    } 
+    .INSTA2 {
+        display: none;
+        visibility: hidden;
+    }  
+    .INSTA3 {
+        display: none;
+        visibility: hidden;
+    }  
  }
+.INSTA1 {
+    height: 620px;
+    width: 320px;
+}
+.INSTA2 {
+    height: 620px;
+    width: 320px;
+}
+.INSTA3 {
+    height: 620px;
+    width: 320px;
+}
 
+.Instaframe {
+    height: 100vh;
+}
  .btn-primary {
     margin-bottom: 5px;
     --bs-btn-color: #fff;
