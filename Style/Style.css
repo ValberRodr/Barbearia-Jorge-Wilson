@@ -27,6 +27,12 @@
     margin-top: 20px;
 }
 
+.carrouselimg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-color: #010c0644;
+}
 .navbar .social-icons a {
     color: #BF863F;
     font-size: 32px;
