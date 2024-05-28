@@ -6,6 +6,7 @@
     font-size: 17px;
     border-color: #BF863F;
     text-align: center !important;
+    animation: fadeIn 2s forwards;
 }
 
 .dropdown-item{
@@ -128,4 +129,5 @@ body {
 
 .row {
     margin-top: 20px;
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
