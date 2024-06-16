@@ -67,7 +67,7 @@ body {
     max-height: 100vh !important;
 }
 
-@media (max-width: 900.98px) {
+@media (max-width: 1000.98px) {
     .carousel-item img {
        max-height: 100vh; /* Define a altura da imagem para 100% da altura da tela em dispositivos móveis */
        object-fit: cover; }
