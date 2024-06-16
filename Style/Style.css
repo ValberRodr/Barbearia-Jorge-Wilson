@@ -3,7 +3,7 @@
     background-color: #262626 !important;
 }
 .dropdown-menu {
-    font-size: 17px;
+    font-size: 15px;
     border-color: #BF863F;
     text-align: center !important;
     animation: fadeIn 2s forwards;
@@ -67,7 +67,7 @@ body {
     max-height: 100vh !important;
 }
 
-@media (max-width: 1000.98px) {
+@media (max-width: 900.98px) {
     .carousel-item img {
        max-height: 100vh; /* Define a altura da imagem para 100% da altura da tela em dispositivos móveis */
        object-fit: cover; }
@@ -86,6 +86,7 @@ body {
     }
     .INSTA1 {
         height: 620px;
+
     } 
     .INSTA2 {
         display: none;
@@ -99,14 +100,17 @@ body {
 .INSTA1 {
     height: 620px;
     width: 320px;
+    margin: 10px;
 }
 .INSTA2 {
     height: 620px;
     width: 320px;
+    margin: 10px;
 }
 .INSTA3 {
     height: 620px;
     width: 320px;
+    margin: 10px;
 }
 
 .Instaframe {
@@ -131,6 +135,6 @@ body {
 }
 
 .row {
-    margin-top: 20px;
+    margin-top: 30px;
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
